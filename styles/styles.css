@@ -102,6 +102,7 @@ letter-spacing: 0.02em;
     text-decoration: none;
     font-weight: 500;
     color: var(--maincolor);
+    padding: 24px 0 24px 0;
 
 }
 
@@ -136,6 +137,7 @@ letter-spacing: 0.02em;
 text-decoration: none;
 color: var(--headercolor);
 font-style: normal;
+padding: 24px 0 24px 0;
 }
 
 .contacts:hover {
