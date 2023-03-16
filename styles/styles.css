@@ -77,13 +77,13 @@ letter-spacing: 0.02em;
     display: inline-flex;
 }
 
-.headnav {
+.head-nav {
     border-bottom: 1px solid var(--footertext);
     margin: auto;
 
 }
 
-.headlogo {
+.head-logo {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -94,11 +94,11 @@ letter-spacing: 0.02em;
     text-transform: uppercase;
 }
 
-.spanlogo {
+.logo-color-black {
     color: var(--headercolor);
 }
 
-.navlisthyperlink {
+.nav-list-hyper-link {
     text-decoration: none;
     font-weight: 500;
     color: var(--maincolor);
@@ -120,7 +120,7 @@ letter-spacing: 0.02em;
     color: var(--hoverlink)
 }
 
-.navlisthyperlink:hover, .navlisthyperlink:focus {
+.nav-list-hyper-link:hover, .nav-list-hyper-link:focus {
     color: var(--hoverlink);
 }
 .address-list {
@@ -159,7 +159,7 @@ max-width: 496px;
 text-align: center;
 }
 
-.orderbutton {
+.order-button {
     background-color: var(--linkscolor);
     color: var(--background);
     cursor:pointer;
@@ -172,7 +172,7 @@ letter-spacing: 0.04em;
 line-height: 24px;
 }
 
-.orderbutton:hover, .orderbutton:focus {
+.order-button:hover, .order-button:focus {
     background-color: var(--hoverlink);
 }
 
@@ -304,7 +304,7 @@ margin-bottom: 72px;
 
 }
 
-.footerlogo {font-family: 'Raleway';
+.footer-logo {font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -319,7 +319,7 @@ margin-bottom: 72px;
 
 }
 
-.footertext {
+.footer-text {
     color: var(--footertext);
     max-width: 262px;
     padding-top: 18px; 
@@ -337,10 +337,9 @@ margin-bottom: 72px;
     display: flex;
     justify-content: center;
     margin-bottom: 72px;
-    gap:24px;
+    gap: 24px;
 }
-
-.portfoliobutton {
+.portfolio-button {
     background: var(--lightbackgroudcolor);
     border: none;
     letter-spacing: 0.04em;
@@ -360,7 +359,7 @@ color: var(--linkscolor);
 font-weight: 500;
 }
 
-.portfoliobutton:hover, .portfoliobutton:focus {
+.portfolio-button:hover, .portfolio-button:focus {
     background-color: var(--linkscolor);
     color: var(--background);
 }
