@@ -267,7 +267,6 @@ margin-bottom: 72px;
     gap:24px;
     flex-wrap: wrap;
     width: 360px;
-    height:300px;
 
 }
 
@@ -376,7 +375,6 @@ font-weight: 500;
 
 .apps-post {
     width: 360px;
-    height: 420px ;
 }
 
 .portfolio-title {
