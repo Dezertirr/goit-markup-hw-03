@@ -116,17 +116,16 @@ letter-spacing: 0.02em;
 }
 
 .list-nav{
-    display: inline-flex;
+    display:flex;
     list-style: none;
+    display: flex;
+    gap: 40px;
 }
 
 .active {
     color: var(--hoverlink)
 }
 
-.list-item {
-    margin-left: 40px ;
-}
 
 .nav-list-hyper-link:hover, .nav-list-hyper-link:focus {
     color: var(--hoverlink);
@@ -136,8 +135,9 @@ letter-spacing: 0.02em;
 }
 
 .list-contact{
-    display: inline-flex;
+    display:flex;
     list-style: none;
+    gap:40px;
 }
 
 .contacts {
