@@ -125,7 +125,7 @@ letter-spacing: 0.02em;
 }
 
 .list-item {
-    padding-left: 40px ;
+    margin-left: 40px ;
 }
 
 .nav-list-hyper-link:hover, .nav-list-hyper-link:focus {
@@ -384,7 +384,7 @@ font-weight: 500;
 line-height: 1.2;
 color: var(--maincolor);
 font-weight: 500;
-padding-bottom: 8px;
+margin-bottom: 8px;
 margin: 0;
 }
 
