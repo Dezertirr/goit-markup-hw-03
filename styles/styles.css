@@ -337,11 +337,7 @@ margin-bottom: 72px;
     display: flex;
     justify-content: center;
     margin-bottom: 72px;
-}
-
-.button-apps-btn {
-    margin-left:24px;
-    
+    gap:24px;
 }
 
 .portfoliobutton {
