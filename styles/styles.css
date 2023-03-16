@@ -384,12 +384,12 @@ font-weight: 500;
 line-height: 1.2;
 color: var(--maincolor);
 font-weight: 500;
-margin-bottom: 8px;
 margin: 0;
 }
 
 .portfolio-text {
     color: var(--headercolor);
+    margin-top: 8px;
 }
 
 .apps-list {
