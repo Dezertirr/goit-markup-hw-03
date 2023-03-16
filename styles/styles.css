@@ -77,6 +77,11 @@ letter-spacing: 0.02em;
     display: inline-flex;
 }
 
+.navigation {
+    display: flex;
+    text-align: center;
+}
+
 .head-nav {
     border-bottom: 1px solid var(--footertext);
     margin: auto;
@@ -92,6 +97,9 @@ letter-spacing: 0.02em;
     color: var(--linkscolor);
     text-decoration: none;
     text-transform: uppercase;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 76px;
 }
 
 .logo-color-black {
@@ -103,28 +111,27 @@ letter-spacing: 0.02em;
     font-weight: 500;
     color: var(--maincolor);
     padding: 24px 0 24px 0;
+    display: block;
 
 }
 
 .list-nav{
     display: inline-flex;
     list-style: none;
-    padding: 24px 0 24px 60px;
-}
-
-.list-item {
-    margin-left: 40px;
 }
 
 .active {
     color: var(--hoverlink)
 }
 
+.list-item {
+    padding-left: 40px ;
+}
+
 .nav-list-hyper-link:hover, .nav-list-hyper-link:focus {
     color: var(--hoverlink);
 }
 .address-list {
-    margin: 24px 0 24px 0;
     text-align: right;
 }
 
@@ -138,9 +145,10 @@ text-decoration: none;
 color: var(--headercolor);
 font-style: normal;
 padding: 24px 0 24px 0;
+display: block;
 }
 
-.contacts:hover {
+.contacts:hover, .contacts:focus {
     color: var(--hoverlink);
 }
 
@@ -216,8 +224,12 @@ line-height: 24px;
 }
 .list-futures {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;;
     gap:24px;   
+}
+
+.futures-block {
+    width: 264px;
 }
 
 .section:last-child {
@@ -254,6 +266,9 @@ margin-bottom: 72px;
     display: flex;
     gap:24px;
     flex-wrap: wrap;
+    width: 360px;
+    height:300px;
+
 }
 
 .list-personal {
@@ -293,8 +308,6 @@ margin-bottom: 72px;
 .team-position {
     color: var(--headercolor);
     text-align: center;
-    padding-bottom: 32px;
-    margin-top: 8px;
 }
 
 .footer {
@@ -352,9 +365,6 @@ padding: 12px 24px;
 background: var(--lightbackgroudcolor);
 border: 1px solid var(--footertext);
 border-radius: 4px;
-flex: none;
-order: 2;
-flex-grow: 0;
 color: var(--linkscolor);
 font-weight: 500;
 }
@@ -362,6 +372,11 @@ font-weight: 500;
 .portfolio-button:hover, .portfolio-button:focus {
     background-color: var(--linkscolor);
     color: var(--background);
+}
+
+.apps-post {
+    width: 360px;
+    height: 420px ;
 }
 
 .portfolio-title {
@@ -383,11 +398,8 @@ margin: 0;
     flex-wrap: wrap;
     margin: 0 auto;
     justify-content: space-between;
-    gap: 24px;
+    gap:48px 24px;
 
-}
-.apps-post{
-    margin-bottom: 48px;
 }
 .apps-post:last-of-type {
     margin-bottom: 120px;
